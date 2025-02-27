@@ -195,8 +195,26 @@ button {
     padding: 5rem;
   }
 
+  .img-container {
+    /* background-color: var(--top-layer-wave-color); */
+  }
+
+  .img-waves-desktop {
+    /* right: 0; */
+    /* left: 100%; */
+    /* position: absolute; */
+  }
+
+  .img-lotus {
+    height: 700px;
+  }
+
   .page-nav a {
     font-size: 1.125rem;
+  }
+
+  .page-content {
+    text-align: left;
   }
 
   .page-content h1 {
@@ -205,6 +223,10 @@ button {
 
   .page-content p {
     font-size: 1.5rem;
+  }
+
+  .buttons {
+    justify-content: flex-start;
   }
 
   .btn {
